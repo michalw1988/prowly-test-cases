@@ -1,0 +1,78 @@
+A) Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.).
+
+
+Test Case 1: Search for "prowly" with the "Everything" Content Category Filter
+
+Test Steps:
+1. Open a web browser and navigate to Google.com.
+2. In the search bar, enter the query "prowly."
+3. Click on the "Search" button.
+4. On the search results page, select the "Everything" content category filter.
+
+Expected Result:
+The search results should display a comprehensive list of web pages, images, videos, news articles, and other content related to "prowly." There should be no specific content category filter applied.
+
+
+
+Test Case 2: Search for "prowly" with the "Video" Content Category Filter
+
+Test Steps:
+1. Open a web browser and navigate to Google.com.
+2. In the search bar, enter the query "prowly."
+3. Click on the "Search" button.
+4. On the search results page, select the "Video" content category filter.
+
+Expected Result:
+The search results should display videos related to "prowly." These videos could include promotional videos, interviews, tutorials, or any other video content relevant to the query.
+
+
+
+Test Case 3: Search for "prowly" with the "News" Content Category Filter
+
+Test Steps:
+1. Open a web browser and navigate to Google.com.
+2. In the search bar, enter the query "prowly."
+3. Click on the "Search" button.
+4. On the search results page, select the "News" content category filter.
+
+Expected Result:
+The search results should display news articles and reports related to "prowly." These articles should include the latest news and updates about the topic.
+
+
+
+===========================
+
+B) Searching for the word "prowly" on google.com with filtering by date.
+
+
+Test Case 1: Search for "prowly" with the "Past 24 Hours" Date Filter
+
+Feature: Google Search Date Filtering
+Scenario: Search for "prowly" with the "Past 24 Hours" Date Filter
+Given I open a web browser and navigate to Google.com
+When I enter the query "prowly" in the search bar and click the "Search" button
+And I select the "Past 24 Hours" date filter
+Then I should see search results related to "prowly" published or updated in the last 24 hours
+
+
+
+Test Case 2: Search for "prowly" with the "Past Week" Date Filter
+
+Feature: Google Search Date Filtering
+Scenario: Search for "prowly" with the "Past Week" Date Filter
+Given I open a web browser and navigate to Google.com
+When I enter the query "prowly" in the search bar and click the "Search" button
+And I select the "Past Week" date filter
+Then I should see search results related to "prowly" published or updated in the last week
+
+
+
+Test Case 3: Search for "prowly" with a Custom Date Range Filter
+
+Feature: Google Search Date Filtering
+Scenario: Search for "prowly" with a Custom Date Range Filter
+Given I open a web browser and navigate to Google.com
+When I enter the query "prowly" in the search bar and click the "Search" button
+And I select the "Custom Date Range" date filter and specify a custom date range (e.g., last three months)
+Then I should see search results related to "prowly" within the specified custom date range
+
